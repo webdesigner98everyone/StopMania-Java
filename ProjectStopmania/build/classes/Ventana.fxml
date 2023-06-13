@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="509.0" prefWidth="848.0" style="-fx-background-color: rgba(40, 40, 38, 1);" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button layoutX="761.0" layoutY="27.0" mnemonicParsing="false" style="-fx-background-color: A2CD26; -fx-border-color: black; -fx-border-width: 1px; -fx-border-radius: 5px;" text="STOP" textAlignment="CENTER" />
+      <Label layoutX="561.0" layoutY="32.0" style="-fx-font-size: 20px; -fx-font-weight: bold; -fx-text-fill: white;" text="Tiempo:" />
+      <Label layoutX="572.0" layoutY="84.0" style="-fx-font-size: 20px; -fx-font-weight: bold; -fx-text-fill: white;;" text="Letra: " />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="14.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Users/acer/OneDrive/Documentos/Universidad/PARADIGMAS%20DE%20PROGRAMACIÓN/Escenario3/Herramientas/logo.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="728.0" layoutY="79.0" mnemonicParsing="false" style="-fx-background-color: A2CD26; -fx-border-color: black; -fx-border-width: 1px; -fx-border-radius: 5px;" text="GENERAR LETRA" textAlignment="CENTER" />
+      <Label layoutX="98.0" layoutY="143.0" style="-fx-font-size: 15px; -fx-font-weight: bold; -fx-text-fill: white;" text="topMania" />
+      <Label layoutX="561.0" layoutY="131.0" style="-fx-font-size: 20px; -fx-font-weight: bold; -fx-text-fill: white;;" text="Puntaje: " />
+      <Label layoutX="172.0" layoutY="20.0" style="-fx-font-size: 20px; -fx-font-weight: bold; -fx-text-fill: white;;" text="Nombre User:" />
+      <Button layoutX="14.0" layoutY="443.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="139.0" style="-fx-background-color: A2CD26; -fx-border-color: black; -fx-border-width: 1px; -fx-border-radius: 5px;" text="VALIDAR PALABRA" textAlignment="CENTER" />
+      <TextField layoutX="31.0" layoutY="242.0" prefHeight="26.0" prefWidth="120.0" style="-fx-background-color: white;" />
+      <Label layoutX="59.0" layoutY="205.0" style="-fx-font-size: 18px; -fx-font-weight: bold; -fx-text-fill: white;" text="Nombre" />
+      <TextField layoutX="167.0" layoutY="242.0" prefHeight="26.0" prefWidth="120.0" style="-fx-background-color: white;" />
+      <Label layoutX="194.0" layoutY="205.0" style="-fx-font-size: 18px; -fx-font-weight: bold; -fx-text-fill: white;" text="Apellido" />
+      <TextField layoutX="301.0" layoutY="242.0" prefHeight="26.0" prefWidth="120.0" style="-fx-background-color: white;" />
+      <Label layoutX="333.0" layoutY="204.0" style="-fx-font-size: 18px; -fx-font-weight: bold; -fx-text-fill: white;" text="Animal" />
+      <TextField layoutX="435.0" layoutY="241.0" prefHeight="26.0" prefWidth="120.0" style="-fx-background-color: white;" />
+      <Label layoutX="468.0" layoutY="204.0" style="-fx-font-size: 18px; -fx-font-weight: bold; -fx-text-fill: white;" text="Objeto" />
+      <TextField layoutX="568.0" layoutY="241.0" prefHeight="26.0" prefWidth="120.0" style="-fx-background-color: white;" />
+      <Label layoutX="607.0" layoutY="204.0" style="-fx-font-size: 18px; -fx-font-weight: bold; -fx-text-fill: white;" text="Fruta" />
+      <TextField layoutX="707.0" layoutY="241.0" prefHeight="26.0" prefWidth="120.0" style="-fx-background-color: white;" />
+      <Label layoutX="749.0" layoutY="204.0" style="-fx-font-size: 18px; -fx-font-weight: bold; -fx-text-fill: white;" text="Pais" />
+   </children>
+</AnchorPane>
